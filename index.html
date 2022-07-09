@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Levy Calculator</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <section class="main-card">
+        <h2>E-Levy Calculator</h2>
+       
+        <div class="input">
+            <p>How much are you sending?</p>
+            <input id="amountSending" type="text" placeholder="Text">
+            <p>What Network?</p>
+            <input id="network" type="text" placeholder="Text">
+            <button onclick="returnText()">Calculate</button>
+            <div class="total-price">
+                <p id="totalAmt">0</p>
+            </div>
+        </div>
+    </section>
+    <script src="/script.js"></script>
+</body>
+</html>
